@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/live_score"
+            android:icon="@drawable/logodrawer"
+            android:title="Live Score" />
+    </group>
+
+    <item android:title="Standings">
+        <menu>
+            <item
+                android:id="@+id/premier_league"
+                android:icon="@drawable/premierleague"
+                android:title="Premier League" />
+            <item
+                android:id="@+id/la_liga"
+                android:icon="@drawable/laliga"
+                android:title="La Liga" />
+            <item
+                android:id="@+id/serie_a"
+                android:icon="@drawable/seriea"
+                android:title="Serie A" />
+        </menu>
+    </item>
+
+</menu>
